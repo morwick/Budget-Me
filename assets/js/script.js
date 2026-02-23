@@ -389,7 +389,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btnLogin.addEventListener('click', () => { modalLogin.classList.remove('hidden'); loginPassword.focus(); });
     btnCloseLogin.addEventListener('click', () => { modalLogin.classList.add('hidden'); loginError.classList.add('hidden'); loginPassword.value = ''; });
     btnAuth.addEventListener('click', () => {
-        if (loginPassword.value === 'admin123') {
+        if (loginPassword.value === 'q') {
             toggleAdminMode(true);
             modalLogin.classList.add('hidden');
             loginPassword.value = '';
